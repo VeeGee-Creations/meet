@@ -19,7 +19,8 @@ As a **user**, I should be able to **find events by city** so that **I only get 
 - **Scenario 3**: User can select a city from the suggested list
     - **Given** the user was typing “Berlin” in the city textbox and the list of suggested cities is showing
     - **When** the user selects a city (e.g., “Berlin, Germany”) from the list
-    - **Then** their city should be changed to that city (i.e., “Berlin, Germany”) and the user should receive a list of upcoming events in that city
+    - **Then** their city should be changed to that city (i.e., “Berlin, Germany”)     - And the list of suggestions should disappear.
+    - And the user should receive a list of upcoming events in that city.
 
 ## FEATURE 2: SHOW/HIDE AN EVENT'S DETAILS
 As a **user**, I should be able to **show and hide event details** so that **browsing events is fast and simple**.
