@@ -7,7 +7,7 @@ import {limitResults} from '../api';
 describe('<NumberOfEvents /> component', () => {
     let NumberOfEventsWrapper;
     beforeAll(() => {
-        NumberOfEventsWrapper = shallow(<NumberOfEvents />);
+        NumberOfEventsWrapper = shallow(<NumberOfEvents updateNumberOfEvents={() => {}} />);
     });
     test('render number input', () => {
         expect(NumberOfEventsWrapper.find('.number-events')).toHaveLength(1);

@@ -10,6 +10,8 @@ export default class NumberOfEvents extends Component {
         this.setState({
             resultNumber: value
         });
+
+        this.props.updateNumberOfEvents(event.target.value);
     }
 
     render() {
