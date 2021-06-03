@@ -18,11 +18,13 @@ export default class NumberOfEvents extends Component {
         const {resultNumber} = this.state;
         return (
             <div className="NumberOfEvents">
+                <label># of events:
                 <input type="number"
                 className="number-events"
                 value={resultNumber}
                 onChange={this.handleInputChange}
                 />
+                </label>
             </div>
         );
     }

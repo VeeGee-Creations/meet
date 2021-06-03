@@ -31,6 +31,7 @@ export default class CitySearch extends Component {
         const {query, suggestions, showSuggestions} = this.state;
         return (
             <div className="CitySearch">
+                <label>Cities:
                 <input type="text"
                 className="city"
                 value={query}
@@ -38,6 +39,7 @@ export default class CitySearch extends Component {
                 onChange={this.handleInputChanged}
                 onFocus={() => {this.setState({showSuggestions: true})}}
                 />
+                </label>
 
                 <ul className="suggestions" style={showSuggestions ? {}: {display: 'none'}}>
                     {suggestions.map((suggestion) => (
