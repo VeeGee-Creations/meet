@@ -50,13 +50,16 @@ input[type="number"] {
   width: 250px;
 }
 
+.SearchContainer {
+  position: relative;
+}
+
 .CitySearch {
   display: flex;
   flex-direction: column;
   flex-basis: 300px;
   max-width: 300px;
   margin: auto;
-  position: relative;
 }
 
 .suggestions {
@@ -64,7 +67,7 @@ input[type="number"] {
   position: absolute;
   z-index: 2;
   align-self: center;
-  margin: 0;
+  margin: -5px 0 0 46px;
   top: 43px;
   font-size: 14px;
   box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75);
@@ -143,10 +146,10 @@ input[type="number"] {
   font-family: sans-serif;
 }
 
-.Alert {
+/* .Alert {
   position: fixed;
   top: 20px;
-}
+} */
 
 .data-vis-wrapper {
   display: flex;
@@ -230,5 +233,11 @@ input[type="number"] {
 @media only screen and (max-width: 1070px) {
   .App {
     min-height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .suggestions {
+    margin: 0;
   }
 }
