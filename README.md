@@ -74,5 +74,3 @@ As a user, I should be able to see how many events are in the area so that I can
     - **Given** the user has selected a city
     - **When** events are loaded
     - **Then** display chart with the number of events in cities within range
-
-Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
