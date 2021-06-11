@@ -2,6 +2,8 @@ import axios from 'axios';
 import mockData from './mock-data';
 import NProgress from 'nprogress';
 
+NProgress.configure({ showSpinner: false });
+
 export const extractLocations = (events) => {
     let extractLocations = events.map((event) => event.location);
     let locations = [...new Set(extractLocations)];

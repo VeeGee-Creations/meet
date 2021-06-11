@@ -4,10 +4,8 @@ import EventList from './components/EventList/EventList';
 import CitySearch from './components/CitySearch/CitySearch';
 import NumberOfEvents from './components/NumberOfEvents/NumberOfEvents';
 import { extractLocations, getEvents, limitResults } from './api';
-import nProgress from 'nprogress';
 import './nprogress.css';
 
-nProgress.configure({ showSpinner: false });
 
 export default class App extends Component {
   state = {
