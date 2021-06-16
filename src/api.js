@@ -19,7 +19,7 @@ export const limitResults = (results, limit) => {
     return results;
 };
 
-const checkToken = async (accessToken) => {
+export const checkToken = async (accessToken) => {
     const results = await fetch(
         `https://www.googleapis.com/oauth2/v1/tokeninfo?access_token=${accessToken}`
     )
