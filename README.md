@@ -74,3 +74,39 @@ As a user, I should be able to see how many events are in the area so that I can
     - **Given** the user has selected a city
     - **When** events are loaded
     - **Then** display chart with the number of events in cities within range
+
+## Dependecies
+-    @testing-library/jest-dom: ^5.12.0
+-    @testing-library/react: ^11.2.7
+-    @testing-library/user-event: ^12.8.3
+-    atatus-spa: ^4.3.2
+-    axios: ^0.21.1
+-    nprogress: ^0.2.0
+-    react: ^17.0.2
+-    react-dom: ^17.0.2
+-    react-scripts: 4.0.3
+-    recharts: ^2.0.9
+-    remove: ^0.1.5
+-    web-vitals: ^0.2.4
+-    workbox-background-sync: ^5.1.4
+-    workbox-broadcast-update: ^5.1.4
+-    workbox-cacheable-response: ^5.1.4
+-    workbox-core: ^5.1.4
+-    workbox-expiration: ^5.1.4
+-    workbox-google-analytics: ^5.1.4
+-    workbox-navigation-preload: ^5.1.4
+-    workbox-precaching: ^5.1.4
+-    workbox-range-requests: ^5.1.4
+-    workbox-routing: ^5.1.4
+-    workbox-strategies: ^5.1.4
+-    workbox-streams: ^5.1.4
+
+## Setup
+* Verify Node is installed by typing ```node -v``` in your terminal.  
+This should print the version number so you’ll see something like this ```v12.18.1```
+  * If the command is unrecognized, download and install node from [nodjs.org](https://nodejs.org/en/download/)
+
+## To Install Clone
+Open the terminal in the project folder and run  
+```npm install```
+
